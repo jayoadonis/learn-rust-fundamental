@@ -1,0 +1,13 @@
+
+[package]
+name="learn-rust-fundamental"
+version="0.0.0"
+edition="2021"
+
+[[bin]]
+name="data-type"
+path="data-type/src/main/main_exe.rs"
+
+[[bin]]
+name="conditional-statement"
+path="conditional-statement/src/main/main_exe.rs"
