@@ -31,19 +31,19 @@ pub fn main() -> Result<(), usize> {
 
     let integer32Bit: i32;          //REM: integer (4 bytes)
                                     //REM: -2_147_483_648 to 2_147_483_647
-                                    //REM: BILLION
+                                    //REM: BILLION (10^9)
 
     let unsignedInteger32Bit: u32;  //REM: unsigned integer (4 bytes)
                                     //REM: 0 to 4_294_967_295
-                                    //REM: BILLION
+                                    //REM: BILLION (10^9)
 
     let integer64Bit: i64;          //REM: long (8 bytes)
                                     //REM: -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807
-                                    //REM: QUINTILLION
+                                    //REM: QUINTILLION (10^18)
 
     let unsignedInteger64Bit: u64;  //REM: unsigned long (8 bytes)
                                     //REM: 0 to 18,446,744,073,709,551,615
-                                    //REM: QUINTILLION
+                                    //REM: QUINTILLION (10^18)
 
     let float32Bit: f32;            //REM: float (6 to 7 precision) (4 bytes)
                                     //REM: ~1.2E-38 to ~3.4E+38
@@ -53,11 +53,11 @@ pub fn main() -> Result<(), usize> {
 
     let integer128Bit: i128;        //REM: signed 16 bytes integer
                                     //REM: -170,141,183,460,469,231,731,687,303,715,884,105,727 to 170,141,183,460,469,231,731,687,303,715,884,105,727
-                                    //REM: UNDECILLION
+                                    //REM: UNDECILLION (10^36)
 
     let unsignedInteger128Bit: u128;//REM: unsigned 16 bytes integer
                                     //REM: 0 to 340,282,366,920,938,463,463,374,607,431,768,211,455
-                                    //REM: UNDECILLION
+                                    //REM: UNDECILLION (10^36)
     
     let signedSize: isize;          //REM: signed integer (architect dependent)
                                     //REM: eithter i32 or i64 bits.
@@ -67,6 +67,10 @@ pub fn main() -> Result<(), usize> {
 
     //REM: WRAPPER DATA TYPE
     let charSequence: String;       //REM: 24 bytes (192 bits)
-    
+                                    //REM: 0 to 6_277_101_735_386_680_763_835_789_423_207_666_416_102_355_444_464_034_512_895
+                                    //REM: OCTODECILLION (10^57)
+
+    //REM: There are much more wrapper data type or wrapper classes/struct...
+
     return Ok(());
 }

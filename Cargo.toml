@@ -11,3 +11,7 @@ path="data-type/src/main/main_exe.rs"
 [[bin]]
 name="conditional-statement"
 path="conditional-statement/src/main/main_exe.rs"
+
+[[bin]]
+name="smart-pointer"
+path="smart-pointer/src/main/main_exe.rs"
