@@ -26,7 +26,7 @@ pub fn main() -> Result<(), usize> {
     let short: i16;                 //REM: 2 bytes (16 bits)        
                                     //REM: -32_768 to 32_767
     
-    let unsignedShort: i16;         //REM: unsigned 2 bytes (16 bits)
+    let unsignedShort: u16;         //REM: unsigned 2 bytes (16 bits)
                                     //REM: 0 to 65_535
 
     let integer32Bit: i32;          //REM: integer (4 bytes)
